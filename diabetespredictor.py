@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
-diabetes_dataset = pd.read_csv(r"C:\Users\venkat thota\OneDrive\Dokumen\internpe\diabetes.csv")
+diabetes_dataset = pd.read_csv("diabetes.csv")
 print("\n--- Data Preview (First 5 Rows):")
 print(diabetes_dataset.head())
 print("\n--- Outcome Values:")
